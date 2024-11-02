@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WeatherAPI.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
     public class SayHello : ControllerBase
     {
